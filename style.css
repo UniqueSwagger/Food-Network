@@ -1,0 +1,195 @@
+body{
+
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    background: linear-gradient(-45deg, #ee7752, #7e5263, #23a6d5, #23d5ab);
+	color: white;
+}
+ul{
+    list-style-type: none;
+    
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 20px;
+  }
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+
+}
+.menu ul li{
+    
+    list-style: none;
+    margin: 0 20px;
+    color: white;
+    cursor: pointer;
+    padding-top: 5px;
+}
+.logo{
+
+    width: 30px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+.active{
+
+    color: cyan !important;
+}
+.signup-btn{
+
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a,#42455a);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    margin-top: 18px;
+}
+.signup-btn span{
+
+    display: block;
+    padding: 8px 22px;
+}
+h1{
+
+    font-size: 50px;
+    margin: 4px;
+}
+h2{
+
+    font-size: 28px;
+    
+}
+.color-name{
+
+    color: rgba(251, 113, 34, 0.856);
+}
+section{
+
+    display: flex;
+}
+.text-container{
+
+    width: 40%;
+    height: 60%;
+    padding: 100px;
+    padding-left: 150px; 
+    
+}
+.paragraph{
+
+    padding-top: 20px; 
+    padding-bottom: 40px; 
+    text-align: justify; 
+      
+
+}
+.image-container img{
+
+    width: 75%;
+    padding-left: 100px;
+}
+.link-button{
+    padding: 15px 50px;
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    background-image: linear-gradient(to left,tomato,rgba(233, 127, 77, 0.924));
+    border-radius: 40px;
+    font-weight: 700;
+    
+}
+.text-container1{
+
+
+    width: 40%;
+    height: 60%;
+    padding: 100px;
+    padding-right: 150px;
+}
+
+.image-container1 img{
+
+    width: 75%;
+    margin: 40px;
+    padding-left: 40px;
+    padding: 50px;
+    margin-top: -30px;
+    
+}
+
+.background-image1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+     
+}
+.centered {
+
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    
+}
+.centered h2{
+
+    text-align: center;
+}
+.card-container{
+    margin: 45px;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(66, 66, 66, 0.19);
+    display: inline;
+    background-image: linear-gradient(#141e30,#243b55);
+    color: rgba(255, 255, 255, 0.924);
+}
+.card-image{
+    width: 300px;
+    object-fit: cover;
+    
+}
+.card-image img{
+
+    border-radius: 20px; 
+    width: 100%;
+}
+.card-des{
+    width: 300px;
+    
+}
+.card-container:hover{
+    box-shadow: 0 4px 30px 0 white, 0 6px 20px white;
+    transition: 1s;
+    cursor: pointer;
+}
+.flexible-container{
+    
+    margin: 80px ;
+    padding: 20px 30px;
+    justify-content: center;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(66, 66, 66, 0.19);
+    border-radius: 40px;
+    border: 3px solid white;
+    color: rgb(246, 226, 226);
+    
+}
+.flexible-container div{
+
+    margin: auto;
+}
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(59, 56, 56);
+    color: rgb(255, 242, 242);
+    text-align: center;
+
+}
+
